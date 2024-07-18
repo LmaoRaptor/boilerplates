@@ -22,4 +22,3 @@
         headers:
           Content-Type: application/json
         status_code: 204
-      when: disk_usage.stdout[:-1]|int > 80
